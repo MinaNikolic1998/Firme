@@ -1,0 +1,86 @@
+.kontFirma {
+  border: 1px solid black;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(126, 127, 154);
+  border-radius: 15px;
+}
+.divLevi {
+  margin: 20px;
+  width: 30%;
+  border-radius: 15px;
+  min-width: 250px;
+}
+#map {
+  height: 350px;
+  width: 98%;
+  margin: 20px;
+  display: flex;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+.divDesni {
+  margin: 25px;
+  width: 100%;
+  display: flex;
+  background-color: rgb(151, 167, 179);
+  flex-direction: row;
+  border: 1px solid black;
+  padding: 10px;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  min-width: 300px;
+}
+.divInfoFirma {
+  border: 1px solid black;
+  background-color: rgb(199, 211, 221);
+  padding: 10px;
+  margin: 5px;
+  border-radius: 15px;
+}
+.divDodavanje {
+  border: 1px solid black;
+  background-color: rgb(214, 201, 201);
+  padding: 10px;
+  margin: 5px;
+  border-radius: 15px;
+}
+.divDodajProgramera {
+  background-color: rgb(186, 212, 233);
+  padding: 10px;
+  margin: 5px;
+}
+.divProjekatKartica {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+}
+.dugmeUpdate {
+  padding: 10px;
+}
+.modal {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  margin-top: 200px;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+.modal-content {
+  background-color: white;
+  border-radius: 0.5em;
+  max-width: 600px;
+  padding: 2em;
+  margin: auto;
+}
+
+.close-btn {
+  float: right;
+  color: lightgray;
+  font-size: 24px;
+  font-weight: bold;
+}

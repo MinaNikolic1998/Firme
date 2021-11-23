@@ -1,0 +1,2 @@
+INSERT INTO Firme(Naziv,BrojZaposlenih,GodinaOsnivanja,Lokacija,OsnovneInformacije,Kontakt) VALUES('Nova firma', 30, 2004,'Leskovac,Serbia','Firma koja se bavi dizajnom stranica', 'firma@firma.com');
+INSERT INTO Firme(Naziv,BrojZaposlenih,GodinaOsnivanja,Lokacija,OsnovneInformacije,Kontakt) VALUES('Nova firma2', 40, 2006,'Pirot,Serbia','Firma koja se bavi dizajnom stranica2', 'firma2@firma.com');
